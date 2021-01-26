@@ -21,3 +21,35 @@ h1 {
     color: whitesmoke;
     font-weight: bold;
 }
+
+/* .button{
+    background-color: transparent;
+    color:black;
+    padding: 12px 28px;
+    box-shadow: 10px 5px 5px black;
+    border: 0;
+    width: fit-content;
+} */
+
+.button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(235, 36, 36);
+    width: fit-content;
+    transition-duration: 2s;
+}
+
+.button:hover{
+    background-image: url("../jadavey91.github.io/img/tiger.jpg");
+    color:white;
+}
+
+.button::after{
+    filter:invert(.9);
+}
