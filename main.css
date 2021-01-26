@@ -1,9 +1,23 @@
 body{
     background-image: url("../jadavey91.github.io/img/IMG_20190528_192249.jpg");
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
     color:darkcyan;
-    margin-left: 20px;
+    margin-left: 60px;
+    font-family: monospace;
+    background-color: cornsilk;
+    font-size: 60px;
+    padding: 0px 0px 0px 0px;
+    width: fit-content;
+}
+
+.preamble, .places, .musiclist {
+    margin-left: 60px;
+    font-family: monospace;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
 }
