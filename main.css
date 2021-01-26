@@ -1,5 +1,6 @@
 body{
     background-image: url("../jadavey91.github.io/img/IMG_20190528_192249.jpg");
+    background-size: contain;
 }
 
 h1 {
