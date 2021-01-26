@@ -1,3 +1,17 @@
+html::-webkit-scrollbar{
+    width:16px;
+    height: 16px;
+}
+
+html::-webkit-scrollbar-track{
+    background-image:url("../jadavey91.github.io/img/tiger.jpg");
+}
+
+ html::-webkit-scrollbar-thumb{
+    background-color:white;
+    border-radius:10px;
+} 
+
 body{
     background-image: url("../jadavey91.github.io/img/IMG_20190528_192249.jpg");
     background-size: cover;
@@ -20,6 +34,8 @@ h1 {
     font-size: 30px;
     color: whitesmoke;
     font-weight: bold;
+    background-color: rgba(112, 128, 144, 0.5);
+    width: fit-content;
 }
 
 /* .button{
@@ -42,14 +58,20 @@ h1 {
     border-radius: 10px;
     background-color: rgb(235, 36, 36);
     width: fit-content;
-    transition-duration: 2s;
 }
 
 .button:hover{
     background-image: url("../jadavey91.github.io/img/tiger.jpg");
     color:white;
+    cursor: pointer;
 }
 
 .button::after{
     filter:invert(.9);
+}
+
+.button::after{
+    background-image: url("../jadavey91.github.io/img/aphex.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
